@@ -1,0 +1,47 @@
+baseURL = 'https://syrinx.systems/'
+languageCode = 'en-us'
+title = 'Syrinx Systems'
+theme = 'Agnes'
+
+[params]
+        dateFormat = "Jan 2, 2023"
+        authorName = "Syrinx Systems"
+
+[menu]
+        [[menu.main]]
+                Name = "Contact"
+                URL = "/contact"
+                weight = 1
+        [[menu.main]]
+                Name = "About Us"
+                URL = "/about"
+                weight = 2
+
+[params.social]
+        GitHubURL = "https://github.com/syrinxsystems/"
+
+[params.content]
+        LeadTitle = "Syrinx Systems"
+        LeadDescription = "Our services and expertise will help you achieve technological success."
+        ButtonCaption = "Lets Get Started"
+        ButtonURL = "/contact"
+
+[[params.feature]]
+        FeatureTitle = "IT Consulting"
+        FeatureDescription = "From Coffee Shop wifi to multi-campus enterprise footprints, Syrinx can help you design and implement."
+        FeatureImage = "images/feature-1.png"
+
+[[params.feature]]
+        FeatureTitle = "Cloud Enablement"
+        FeatureDescription = "Whether you're moving to the cloud wholesale or just want to leverage burstable capacity, our team can ensure your cloud experience faces fair weather."
+        FeatureImage = "images/feature-2.png"
+
+[[params.feature]]
+        FeatureTitle = "Bespoke Engineering"
+        FeatureDescription = "Need to solve a problem with new hardware or software?  We've got you covered with green-field engineering services."
+        FeatureImage = "images/feature-3.png"
+
+[[params.feature]]
+        FeatureTitle = "Conference Technology"
+        FeatureDescription = "Temporary wifi for stadiums and A/V for hotel ballrooms, our conference hosting expertise can make your event shine."
+        FeatureImage = "images/feature-4.png"
